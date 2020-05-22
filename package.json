@@ -1,0 +1,26 @@
+{
+  "name": "Diamond-kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erikqtx/Diamond-Kata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erikqtx/Diamond-Kata/issues"
+  },
+  "homepage": "https://github.com/Erikqtx/Diamond-Kata#readme",
+  "dependencies": {
+    "jest": "^26.0.1"
+  }
+}
