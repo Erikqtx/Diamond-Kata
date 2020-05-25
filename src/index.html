@@ -10,7 +10,13 @@
     <p>Put in a Letter to show your own Diamond!</p>
     <script src="..\lib\diamond.js"></script>
     <script src="index.js"></script>
-    <input type="string" name="Box" />
-    <button onclick="diamond()">show result!</button>
+    <input type="string" name="Box" id="input" />
+    <button onclick="diamond(getInput())">show result!</button>
+    <script>
+      function getInput() {
+        var ginput = document.getElementById("input").value;
+        return diamond(ginput);
+      }
+    </script>
   </body>
 </html>
