@@ -1,0 +1,44 @@
+Dia A
+A
+
+Dia B changes 1 dash on A each side, 1 dash on middle section
+-A-
+B-B
+-A-
+
+Dia C changes 1 additional dash on A each side and 1 on B, 2 in middle section
+--A--
+-B-B-
+C---C
+-B-B-
+--A--
+
+Dia D changes 1 additional dash on A, 1 on B, 2 in middle section
+---A---
+--B-B--
+-C---C-
+D-----D
+-C---C-
+--B-B--
+---A---
+
+Dia E changes 1 additional dash on A, 1 on B, 2 in middle section
+----A----
+---B-B---
+--C---C--
+-D-----D-
+E-------E
+-D-----D-
+--C---C--
+---B-B---
+----A----
+
+Overall Pattern:
+A unchanged, own case
+B own case, with 1 dash in middle
+
+Add 1 dash to each letter after middle on the outside
+middle always take 2 dashes more so n*2
+
+bottom just reverse the top part and push it
+
